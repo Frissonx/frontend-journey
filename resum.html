@@ -7,8 +7,7 @@
 			content="width=device-width, initial-scale=1.0"
 		/>
 		<title>Resume</title>
-	</head>
-	<style>
+    <style>
 		table,
 		th,
 		td {
@@ -20,6 +19,7 @@
 			padding: 8px; /* отступы внутри ячеек для красоты */
 		}
 	</style>
+	</head>
 	<body>
 		<header>
 			<h1>Александр Сергеевич</h1>
@@ -41,73 +41,80 @@
 					Мне всегда было тяжело самому описывать себя , но думаю стоит
 					попробывать.
 				</p>
-				<ol>
+				<ul>
 					<li>Работа с windows and linux</li>
 					<li>Устранение программных ошибок</li>
 					<li>Администрирование серверов</li>
 					<li>Управление башшеным краном</li>
 					<li>Работа с 1С</li>
 					<li>Разработка</li>
-				</ol>
+				</ul>
 			</section>
 			<section>
 				<article>
-					Работал 7 лет машинистом башенного крана, даже успел поработать за
-					границей.
+					<h3>Машинист башенного крана:</h3>
+					<p>Работал 7 лет даже успел поработать за границей.</p>
 				</article>
 				<article>
-					Администрирование Windows и Linux, работа младшим системным
-					администратором 1.5 года.
+					<p>
+            <h3>Младший системный администратор:</h3>
+						Администрирование Windows и Linux, работа младшим системным
+						администратором 1.5 года.
+					</p>
 				</article>
 				<article>
-					Разработка. Хотя сейчас ты на странички моего резюме и видишь что я
-					изучаю frontend и это моя первая страничка, но я уже успел написать
-					приложение для своего работодателя на Go!
+          <h3>Frontend-разработчик:</h3>
+					<p>
+						Разработка. Хотя сейчас ты на странички моего резюме и видишь что я
+						изучаю frontend и это моя первая страничка, но я уже успел написать
+						приложение для своего работодателя на Go!
+					</pз>
 				</article>
 			</section>
 			<table>
 				<caption>Расписание на неделю</caption>
+        <tbody>
 				<tr>
-					<th>Понедельник</th>
+					<th scope="row">Понедельник</th>
 					<td>
 						Семантика по-настоящему: почему div вместо button — это баг
 						доступности, а не стиль. header, nav, main, section, article, aside,
 						footer
 					</td>
 				</tr>
-				<option value="value2"></option>
 				<tr>
-					<th>Вторник</th>
+					<th scope="row">Вторник</th>
 					<td>
 						Формы: все типы input, label и связь через for, валидация
 						атрибутами, select, textarea.
 					</td>
 				</tr>
 				<tr>
-					<th>Среда</th>
+					<th scope="row">Среда</th>
 					<td>Мета-теги, charset, viewport, Open Graph.</td>
 				</tr>
 				<tr>
-					<th>Четверг</th>
+					<th scope="row">Четверг</th>
 					<td>
 						Изображения: img c alt, picture + source, loading="lazy", форматы
 						(webp/avif).
 					</td>
 				</tr>
 				<tr>
-					<th>Пятница</th>
+					<th scope="row">Пятница</th>
 					<td>
 						CSS: подключение, синтаксис, селекторы и специфичность (это тема №1
 						по важности), наследование, каскад.
 					</td>
 				</tr>
 				<tr>
-					<th>Суббота</th>
+					<th scope="row">Суббота</th>
 					<td>
 						Box Model — content-box vs border-box, почему все пишут * {
 						box-sizing: border-box }.
 					</td>
 				</tr>
+        </tbody>
 			</table>
 			<form>
 				<section>
@@ -117,7 +124,6 @@
 						name="name"
 						id="name"
 						placeholder="Александр"
-						alt="Пример Имени"
 						required
 					/>
 				</section>
@@ -142,19 +148,22 @@
 					/>
 				</section>
 				<section>
-					<select name="select">
-						<option value="value1">Контакты</option>
-						<option value="value2">Собеседование</option>
-						<option value="value3">Предложение</option>
+					<select name="select" >
+						<option value="Contact">Контакты</option>
+						<option value="Sobes">Собеседование</option>
+						<option value="Giv">Предложение</option>
 					</select>
 				</section>
 				<section>
-					<input
-						type="submit"
-						value="Send"
-					/>
+					<button type="submit">Отправить</button>
 				</section>
 			</form>
+      <img src="pages1.jpg" alt="На фото предоставлен Anime персонаж из anime OnePice" width="300" height="200" />
 		</main>
+    <footer>
+      <small>
+        Copyright © 2026 My first resume on HTML pages
+      </small>
+    </footer>
 	</body>
 </html>
