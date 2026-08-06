@@ -72,7 +72,7 @@
 			<section>
 				<h2>Обо мне</h2>
 				<p>
-					Привет, меня зовут Александр , мне 28 лет. Я работаю младшим системным
+					Привет, меня зовут Александр, мне 28 лет. Я работаю младшим системным
 					администратором. Сейчас помимо работы я еще изучаю frontend. Сейчас ты
 					смотришь на мою первую страничку написанную на HTML!
 				</p>
@@ -80,7 +80,7 @@
 			<section>
 				<h2>Навыки</h2>
 				<p>
-					Мне всегда было тяжело самому описывать себя , но думаю стоит
+					Мне всегда было тяжело самому описывать себя, но думаю стоит
 					попробовать.
 				</p>
 				<ul>
@@ -96,7 +96,7 @@
 				<h2>Опыт работы</h2>
 				<article>
 					<h3>Машинист башенного крана</h3>
-					<p>Работал 7 лет даже успел поработать за границей.</p>
+					<p>Работал 7 лет, даже успел поработать за границей.</p>
 				</article>
 				<article>
 					<h3>Младший системный администратор</h3>
@@ -114,90 +114,96 @@
 					</p>
 				</article>
 			</section>
-			<table>
-				<caption>Расписание на неделю</caption>
-				<tbody>
-					<tr>
-						<th scope="row">Понедельник</th>
-						<td>
-							Семантика по-настоящему: почему div вместо button — это баг
-							доступности, а не стиль. header, nav, main, section, article,
-							aside, footer
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Вторник</th>
-						<td>
-							Формы: все типы input, label и связь через for, валидация
-							атрибутами, select, textarea.
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Среда</th>
-						<td>Мета-теги, charset, viewport, Open Graph.</td>
-					</tr>
-					<tr>
-						<th scope="row">Четверг</th>
-						<td>
-							Изображения: img c alt, picture + source, loading="lazy", форматы
-							(webp/avif).
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Пятница</th>
-						<td>
-							CSS: подключение, синтаксис, селекторы и специфичность (это тема
-							№1 по важности), наследование, каскад.
-						</td>
-					</tr>
-					<tr>
-						<th scope="row">Суббота</th>
-						<td>
-							Box Model — content-box vs border-box, почему все пишут * {
-							box-sizing: border-box }.
-						</td>
-					</tr>
-				</tbody>
-			</table>
-			<form>
-				<fieldset>
-					<legend>Форма обратной связи</legend>
-					<label for="name">Введите имя:</label>
-					<input
-						type="text"
-						name="name"
-						id="name"
-						placeholder="Александр"
-						required
-					/>
-					<label for="email">Введите свой email:</label>
-					<input
-						type="email"
-						name="email"
-						id="email"
-						placeholder="Alex@gmail.com"
-						required
-					/>
-					<label for="phone">Введите свой телефон:</label>
-					<input
-						type="tel"
-						name="phone"
-						id="phone"
-						placeholder="+79432564345"
-						required
-					/>
-					<label for="topic">Тема обращения:</label>
-					<select
-						name="topic"
-						id="topic"
-					>
-						<option value="contact">Контакты</option>
-						<option value="interview">Собеседование</option>
-						<option value="offer">Предложение</option>
-					</select>
-					<button type="submit">Отправить</button>
-				</fieldset>
-			</form>
+			<section>
+				<h2>Расписание обучения</h2>
+				<table>
+					<caption>Расписание на неделю</caption>
+					<tbody>
+						<tr>
+							<th scope="row">Понедельник</th>
+							<td>
+								Семантика по-настоящему: почему div вместо button — это баг
+								доступности, а не стиль. header, nav, main, section, article,
+								aside, footer
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Вторник</th>
+							<td>
+								Формы: все типы input, label и связь через for, валидация
+								атрибутами, select, textarea.
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Среда</th>
+							<td>Мета-теги, charset, viewport, Open Graph.</td>
+						</tr>
+						<tr>
+							<th scope="row">Четверг</th>
+							<td>
+								Изображения: img c alt, picture + source, loading="lazy",
+								форматы (webp/avif).
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Пятница</th>
+							<td>
+								CSS: подключение, синтаксис, селекторы и специфичность (это тема
+								№1 по важности), наследование, каскад.
+							</td>
+						</tr>
+						<tr>
+							<th scope="row">Суббота</th>
+							<td>
+								Box Model — content-box vs border-box, почему все пишут * {
+								box-sizing: border-box }.
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h2>Связаться со мной</h2>
+				<form>
+					<fieldset>
+						<legend>Форма обратной связи</legend>
+						<label for="name">Введите имя:</label>
+						<input
+							type="text"
+							name="name"
+							id="name"
+							placeholder="Александр"
+							required
+						/>
+						<label for="email">Введите свой email:</label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Alex@gmail.com"
+							required
+						/>
+						<label for="phone">Введите свой телефон:</label>
+						<input
+							type="tel"
+							name="phone"
+							id="phone"
+							placeholder="+79432564345"
+							required
+						/>
+						<label for="topic">Тема обращения:</label>
+						<select
+							name="topic"
+							id="topic"
+						>
+							<option value="contact">Контакты</option>
+							<option value="interview">Собеседование</option>
+							<option value="offer">Предложение</option>
+						</select>
+						<button type="submit">Отправить</button>
+					</fieldset>
+				</form>
+			</section>
 			<picture>
 				<source
 					srcset="pages1-400.avif 400w, pages1-800.avif 800w"
